@@ -15,9 +15,8 @@ $_bg-color: $gradient;
   background: $_bg-color;
   border-radius: 3px;
 
-  color: #fff;
   text-align: center;
-  text-decoration: none;
   text-transform: uppercase;
+  @include link-reset($link-color: #fff);
   @include font-add($size: 18px, $height: 21px, $weight: 900);
 }

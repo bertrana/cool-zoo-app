@@ -4,10 +4,7 @@
   justify-content: space-between;
   gap: 83px;
   
-  padding: 0;
-  margin: 0;
-
-  list-style: none;
+  @extend %list-reset;
 }
 
 .nav__item {
