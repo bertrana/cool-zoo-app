@@ -1,0 +1,23 @@
+$_width: 245px;
+$_height: 55px;
+$_bg-color: $gradient;
+
+
+.button {
+  display: block;
+  box-sizing: border-box;
+  
+  max-width: $_width;
+  min-height: $_height;
+
+  padding-top: 18px;
+
+  background: $_bg-color;
+  border-radius: 3px;
+
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  @include font-add($size: 18px, $height: 21px, $weight: 900);
+}

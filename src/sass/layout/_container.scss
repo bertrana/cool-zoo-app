@@ -1,5 +1,9 @@
+$_desktop-padding: 150px;
+
 .container {
   margin: 0 auto;
+  padding-left: $_desktop-padding;
+  padding-right: $_desktop-padding;
 
-  max-width: 1620px;
+  max-width: $width-desktop-external;
 }
