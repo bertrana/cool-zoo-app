@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Cool Zoo</title>
+	</head>
+	<body>
+		<header class="main-header container">
+			<h1 class="visually-hidden">Zoo</h1>
+			<a href="/" class="main-header__logo logo"></a>
+			<nav class="main-header__nav nav">
+				<ul class="nav__list">
+					<li class="nav__item nav__item--current">
+						<a>About</a>
+					</li>
+					<li class="nav__item">
+						<a>Zoos</a>
+					</li>
+					<li class="nav__item">
+						<a>Map</a>
+					</li>
+					<li class="nav__item">
+						<a>Contact us</a>
+					</li>
+					<li class="nav__item">
+						<a>Design</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="main-header__theme-toggle theme-toggle">
+				<input type="checkbox" name="theme-toggle" id="theme-toggle" />
+				<label class="visually-hidden" for="theme-toggle">Theme toggle</label>
+			</div>
+		</header>
+		<main class="main-page">
+			<section class="watch-screen">
+				<div class="container">
+					<h2 class="watch-screen__header">
+						Watch your favorite animal online
+					</h2>
+					<a href="#zoos" class="button button--watch">Watch online</a>
+				</div>
+				<div class="watch-screen__social social">
+					<ul class="social__list">
+						<li class="social__item social__item--inst">
+							<a class="visually-hidden" href="instagram.com">Instagram</a>
+						</li>
+						<li class="social__item social__item--tw">
+							<a class="visually-hidden" href="twitter.com">Twitter</a>
+						</li>
+						<li class="social__item social__item--yt">
+							<a class="visually-hidden" href="youtube.com">Youtube</a>
+						</li>
+						<li class="social__item social__item--vk">
+							<a class="visually-hidden" href="vk.ru">Vkontakte</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="about">
+				<div class="container about__description">
+					<h2>How it works?</h2>
+					<p>
+						As a voice for wildlife, we are devastated by the impact of the 2020
+						Australian bushfires on precious species and their habitat, and we
+						are determined to assist in all aspects, including providing
+						veterinary support and raising much-needed emergency funds. Zoo
+						Online saves wildlife and inspires everyone to make conservation a
+						priority in their lives. Animals have the right to a pain-free and
+						happy life. They have equal claim to the resources of this planet,
+						and deserve a life of dignity and compassion.As a voice for
+						wildlife, we are devastated by the impact of the 2020 Australian
+						bushfires on precious species and their habitat.
+					</p>
+					<div class="container carousel">
+						<img
+							class="carousel__image"
+							src="/assets/carousel-1.jpeg"
+							alt="deers"
+							width="790"
+							height="323"
+						/>
+						<div class="wrapper carousel__range-label">
+							<label for="carousel">01</label>
+							<span>04</span>
+						</div>
+						<input
+							class="carousel__range"
+							type="range"
+							name="carousel"
+							id="carousel"
+						/>
+						<a href="#zoos" class="button button--watch">Watch online</a>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
