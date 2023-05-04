@@ -19,4 +19,26 @@ $_bg-color: $gradient;
   text-transform: uppercase;
   @include link-reset($link-color: #fff);
   @include font-add($size: 18px, $height: 21px, $weight: 900);
+
+  &--watch {
+    position: relative;
+
+    padding-left: 76px;
+
+    text-align: left;
+
+    &::before {
+      content: "";
+
+      display: block;
+      width: 32px;
+      height: 32px;
+
+      position: absolute;
+      left: 38px;
+      top: 12px;
+
+      background-image: url("/assets/icon-watch.svg");
+    }
+  }
 }
