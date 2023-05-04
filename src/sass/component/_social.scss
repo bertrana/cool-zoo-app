@@ -1,0 +1,42 @@
+.social {
+  @extend %list-reset;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social__item {
+  display: block;
+  width: 20px;
+
+  background-repeat: no-repeat;
+
+  &--inst {
+    height: 20px;
+
+    background-image: url("/assets/icon-inst.svg");
+  }
+
+  &--tw {
+    height: 16px;
+
+    background-image: url("/assets/icon-tw.svg");
+  }
+
+  &--yt {
+    height: 14px;
+
+    background-image: url("/assets/icon-yt.svg");
+  }
+
+  &--vk {
+    height: 12px;
+
+    background-image: url("/assets/icon-vk.svg");
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}

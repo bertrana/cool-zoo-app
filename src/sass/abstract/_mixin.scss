@@ -3,3 +3,8 @@
   font-weight: $weight;
   line-height: $height;
 }
+
+@mixin link-reset($link-color: $color) {
+  color: $link-color;
+  text-decoration: none;
+}

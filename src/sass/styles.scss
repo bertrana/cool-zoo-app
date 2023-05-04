@@ -1,12 +1,16 @@
 @import "./abstract/constant";
 @import "./abstract/mixin";
+@import "./abstract/placeholder";
 
 @import "./base/base";
 @import "./base/button";
 @import "./base/visually-hidden";
 
+@import "./component/about";
+@import "./component/carousel";
 @import "./component/logo";
 @import "./component/nav";
+@import "./component/social";
 @import "./component/theme-toggle";
 @import "./component/watch-screen";
 

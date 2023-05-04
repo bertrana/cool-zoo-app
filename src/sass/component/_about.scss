@@ -1,0 +1,19 @@
+.about {
+  max-width: $width-desktop-inner;
+
+  margin: 100px auto;
+}
+
+.about__header {
+  margin: 0;
+  margin-bottom: 30px;
+
+  @include font-add($size: 48px, $height: 56px, $weight: 900);
+}
+
+.about__text {
+  margin-bottom: 30px;
+
+  color: $color-text;
+  @include font-add($size: 14px, $height: 16px);
+}

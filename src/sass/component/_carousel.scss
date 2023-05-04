@@ -1,0 +1,36 @@
+.carousel {
+  margin-bottom: 30px
+}
+
+.carousel__image {
+  display: block;
+  width: 790px;
+  height: 323px;
+
+  margin-bottom: 30px;
+
+  background-color: $color;
+}
+
+.carousel__range-label {
+  display: block;
+
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.carousel__range {
+  display: block;
+  margin: 0 auto;
+
+  width: 245px;
+
+  &::-webkit-slider-thumb,
+  &::-moz-range-thumb,
+  &::-ms-thumb {
+    width: 62px;
+    height: 10px;
+
+    background-color: $color;
+  }
+}

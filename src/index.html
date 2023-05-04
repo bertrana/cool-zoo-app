@@ -46,27 +46,25 @@
 					</h2>
 					<a href="#zoos" class="button button--watch">Watch online</a>
 				</div>
-				<div class="watch-screen__social social">
-					<ul class="social__list">
-						<li class="social__item social__item--inst">
-							<a class="visually-hidden" href="instagram.com">Instagram</a>
-						</li>
-						<li class="social__item social__item--tw">
-							<a class="visually-hidden" href="twitter.com">Twitter</a>
-						</li>
-						<li class="social__item social__item--yt">
-							<a class="visually-hidden" href="youtube.com">Youtube</a>
-						</li>
-						<li class="social__item social__item--vk">
-							<a class="visually-hidden" href="vk.ru">Vkontakte</a>
-						</li>
-					</ul>
-				</div>
+				<ul class="container watch-screen__social social">
+					<li class="social__item social__item--inst">
+						<a class="visually-hidden" href="instagram.com">Instagram</a>
+					</li>
+					<li class="social__item social__item--tw">
+						<a class="visually-hidden" href="twitter.com">Twitter</a>
+					</li>
+					<li class="social__item social__item--yt">
+						<a class="visually-hidden" href="youtube.com">Youtube</a>
+					</li>
+					<li class="social__item social__item--vk">
+						<a class="visually-hidden" href="vk.ru">Vkontakte</a>
+					</li>
+				</ul>
 			</section>
 			<section class="about">
-				<div class="container about__description">
-					<h2>How it works?</h2>
-					<p>
+				<div class="about__description">
+					<h2 class="about__header">How it works?</h2>
+					<p class="about__text">
 						As a voice for wildlife, we are devastated by the impact of the 2020
 						Australian bushfires on precious species and their habitat, and we
 						are determined to assist in all aspects, including providing
@@ -78,7 +76,7 @@
 						wildlife, we are devastated by the impact of the 2020 Australian
 						bushfires on precious species and their habitat.
 					</p>
-					<div class="container carousel">
+					<div class="carousel">
 						<img
 							class="carousel__image"
 							src="/assets/carousel-1.jpeg"
@@ -86,8 +84,8 @@
 							width="790"
 							height="323"
 						/>
-						<div class="wrapper carousel__range-label">
-							<label for="carousel">01</label>
+						<div class="carousel__range-label">
+							<label for="carousel">01/</label>
 							<span>04</span>
 						</div>
 						<input
@@ -95,9 +93,12 @@
 							type="range"
 							name="carousel"
 							id="carousel"
+							min="1"
+							max="4"
+							value="1"
 						/>
-						<a href="#zoos" class="button button--watch">Watch online</a>
 					</div>
+					<a href="#zoos" class="button button--watch">Watch online</a>
 				</div>
 			</section>
 		</main>
