@@ -7,7 +7,7 @@ import  App  from "./App.vue";
 
 createApp(App).mount('#app');
 
-(async () => {
-  const data = await getUser(10);
-  renderSlider(data);
-})();
+// (async () => {
+//   const data = await getUser(10);
+//   // renderSlider(data);
+// })();
