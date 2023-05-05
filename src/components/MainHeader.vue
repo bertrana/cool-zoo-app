@@ -1,4 +1,6 @@
 <script>
+import { RouterLink } from "vue-router";
+
 export default {
   name: "MainHeader",
 }
@@ -12,10 +14,10 @@ export default {
     <nav class="main-header__nav nav">
       <ul class="nav__list">
         <li class="nav__item nav__item--current">
-          <a>About</a>
+          <RouterLink to="/">About</RouterLink>
         </li>
         <li class="nav__item">
-          <a>Zoos</a>
+          <RouterLink to="/zoo">Zoo</RouterLink>
         </li>
         <li class="nav__item">
           <a>Map</a>
