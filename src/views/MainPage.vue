@@ -1,12 +1,14 @@
 <script>
-import FirstScreen from "../components/FirstScreen.vue";
+
+import { defineAsyncComponent } from 'vue';
+
 import About from "../components/About.vue";
 import Testimonials from "../components/Testimonials.vue";
 
 export default {
   name: "MainPage",
   components: {
-    FirstScreen,
+    FirstScreen: defineAsyncComponent(() => import("../components/FirstScreen.vue")),
     About,
     Testimonials
   }

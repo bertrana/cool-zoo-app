@@ -4,7 +4,6 @@ export default {
 }
 </script>
 
-
 <template>
   <header class="main-header container">
     <h1 class="visually-hidden">Zoo</h1>
