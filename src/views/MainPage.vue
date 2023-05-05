@@ -1,7 +1,5 @@
 <script>
-
 import { defineAsyncComponent } from 'vue';
-
 import About from "../components/About.vue";
 import Testimonials from "../components/Testimonials.vue";
 
